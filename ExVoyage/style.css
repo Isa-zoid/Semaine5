@@ -1,0 +1,50 @@
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+    }
+.navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+ul li a{
+    color: white;
+}
+.jumbotron{
+    background: url(https://cdn.pixabay.com/photo/2010/12/13/10/09/abstract-2384_960_720.jpg);
+    background-size: cover;
+    height: 30em;
+    color: white;
+}
+.jumbotron .texte{
+    text-align: center;
+    margin: 0em 20em;
+}
+h1{
+    font-weight: bolder;
+    font-size: 3em;
+}
+h2{
+    font-size: 3em;
+    color: yellow;
+}
+p{
+    font-size: 1.6em;
+}
+h3{
+    font-size: 2.5em;
+    padding: 1.5em;
+}
+/*.encart{
+    inline-size: auto;
+    margin: 2em;
+    padding: Oem 1em;
+    background-color: white;
+    text-align: center;
+}
+.encart img{
+    inline-size: auto;
+}*/

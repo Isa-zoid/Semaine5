@@ -1,0 +1,38 @@
+.nav-link{
+color: ivory;
+}
+
+.exercice{
+    border: 1px black;
+}
+.col-12{
+    background-color: rgb(99, 250, 124);
+    color: white;
+    border: 2px red solid;
+}
+.col-8{
+    background-color: blue;
+    color: white;
+    border: white solid 2px;
+}
+.col-4{
+    background-color: yellow;
+    color: white;
+    border: white solid 2px;
+}
+.col-6{
+    background-color: violet;
+    color: white;
+    border: black solid 2px;
+}
+.col-3{
+    background-color: cornflowerblue;
+    color: white;
+    border: red solid 2px;
+}
+.col-5{
+    background-color: black;
+    color: white;
+    background-color: yellowgreen;
+    border: turquoise solid 2px;
+}

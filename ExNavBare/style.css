@@ -1,0 +1,13 @@
+.conteneur-flex{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px;
+}
+.sous-conteneur-flex{
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    background-color: RGBa(120,150,240,1);
+    margin: 0px 0px 20px 0px;
+}
