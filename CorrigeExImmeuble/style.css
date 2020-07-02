@@ -1,0 +1,45 @@
+/*  */
+.window{
+    height: 60px;
+    width: 20%; /*% plutot que px comme ça s'adapte à taille écran et fenetre*/
+    background-color: aqua;
+/* on aurait put mettre un margin ici et à la porte à la place des mx-auto et my-4 qu'on a appliqué aux div window et door du html*/
+/*    margin: 10px auto;*/
+}
+.door{
+    height: 80px;
+    width: 20%;
+    background-color: brown;
+/*    margin: auto;*/
+}
+.building{
+    background-color: gray;
+    border: solid 1px black;
+}
+.sol{
+    border: solid 1px black;
+}
+/*  */
+.dessus{
+    height: 84px;
+    background-color: white;
+}
+
+/*
+.ciel{
+    height: 120px;
+}
+*/
+/*
+.building2{
+    align-items: flex-end;
+    background-color: gray;
+    border: solid 1px black;
+}
+*/
+/*
+.buiding{
+    display: flex;
+    align-content: flex-end;
+}
+*/

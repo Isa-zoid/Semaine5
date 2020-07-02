@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Bootstrap building corrige</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--  la div container-fluid, 8 éléments, le building (class contenante) et 7 div : 6 fenetres et la porte donc une div contenate et 7 dedans-->    
+<!-- Une seule row, signifie pas vraiment 1 ligne plutot une boite de 12 colonnes
+Au départ comme on a mit une seule row tous les éléments sont alignés sur une ligne de 12 colonnes (6 fenetres 1 porte)
+On applique un justify-content-around à la class row générale pour centrer les éléments dans la class row-->  
+<!--On attribue une col-6(ou 5?) aux widow pour les placer : bootstrap revient à la ligne automatiquement après 12 cases -->              
+<!--On attribue une col-6 a chacune des window-->
+        <!-- On a appliqué un mx-auto pour centrer sur ligne les fenêtres et la porte
+        et un my-4 pour leur donner un espace dessus et dessous-->
+
+<!--Correction un immeuble ci-dessous
+<div class="container-fluid">  
+    <div class="building">          
+        <div class="row justify-content-around">
+            <div class="col-6">
+                <div class="window mx-auto my-4"></div>
+            </div>
+            <div class="col-6">
+                <div class="window mx-auto my-4"></div>
+            </div>
+            <div class="col-6">
+                <div class="window mx-auto my-4"></div>
+            </div>
+            <div class="col-6">
+                <div class="window mx-auto my-4"></div>
+            </div>
+            <div class="col-6">
+                <div class="window mx-auto my-4"></div>
+            </div>
+            <div class="col-6">
+                <div class="window mx-auto my-4"></div>
+            </div>
+    
+            <div class="door mx-auto"></div>
+        </div>
+    </div>
+</div> -->
+
+<!--Deux immeubles-->
+<div class="container-fluid">  
+       
+        <div class="row justify-content-around">
+
+            <div class="col-6">
+                <div class="building">   
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                             <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="door mx-auto"></div>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="col-6">
+                  <div class="ciel">COLLER L'IMMEUBLE 2 AU SOL MAIS MES PROPRIETES FLEX BOX MERDUM ALORS JE TRICHE.. c'est juste que mon internet ramait!!
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="dessus"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="dessus"></div>
+                        </div>
+                    </div>    
+                </div> 
+                <div class="building">   
+                    <div class="row">
+ <!--                      <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>--> 
+                        <div class="col-6">
+                             <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="window mx-auto my-4"></div>
+                        </div>
+                        <div class="door mx-auto"></div>
+                    </div>
+                </div>
+            </div>       
+
+        </div>
+    <div class="row">
+        <div class="col-12 sol"></div>
+    </div> 
+</div>
+</body>
+</html>

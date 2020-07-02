@@ -1,0 +1,35 @@
+
+.sol{
+    border: solid 2px black;
+}
+.immeuble1{
+    background-color: grey;
+    border: solid 1px black;
+}
+.fenetre3e{
+    background-color: white;
+    border: solid 1px blue;
+    height: 5em;
+}
+.fenetre2e{
+    background-color: cadetblue;
+    border: solid 1px blue;
+    height: 5em;
+}
+.fenetre1e{
+    background-color: blueviolet;
+    border: solid 1px blue;
+    height: 5em;
+}
+.porte{
+    background-color: brown;
+    border: solid 1px black;
+    height: 5em;
+}
+.ciel{
+    height: 7em;
+}
+.immeuble2{
+    background-color: yellow;
+    border: solid 1px black;
+}
